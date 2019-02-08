@@ -1,7 +1,7 @@
 {
   "name": "redux-sorcerer",
   "description": "magically bind your react to your redux",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "author": "Roy Sommer",
   "license": "ISC",
   "keywords": [
@@ -27,7 +27,7 @@
     "lint": "tslint --project tsconfig.json",
     "posttest": "npm run lint",
     "prepublish": "npm run build",
-    "publish:minor": ""
+    "publish:minor": "npm version minor && npm publish"
   },
   "peerDependencies": {
     "react": "*",

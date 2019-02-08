@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "sourceMap": false,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "declaration": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src",
+    "test"
+  ]
+}
