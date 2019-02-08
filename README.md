@@ -1,4 +1,4 @@
-![Logo](logo.png)
+![Logo](https://github.com/illBeRoy/redux-sorcerer/blob/master/logo.png?raw=true)
 > 💫 Magically bind your React components with your Redux stores
 
 ## Introduction
