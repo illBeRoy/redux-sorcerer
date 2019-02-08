@@ -63,7 +63,10 @@ Since every `observer` hooks into the rendering stack, only an `observer` that u
 ### It looks a little like MobX
 Yeah, it does 😊 I've had the pleasure to use both Redux and MobX at some points, and on one hand I really liked the way Redux lets you express logic, and on the other the ease that MobX's observer pattern brings. Why not both, then?
 
-### Tests coverage
+### Why create yet another binding library?
+For fun, to begin with. Needless to say that this is more of an experiment, rather than a production ready library. And you're welcome to take part! 😇
+
+### Testing
 Tests run on top of `jest` and are powered by the `enzyme` testing library.
 
 <sub>Logo icon by [mavadee](https://www.flaticon.com/authors/mavadee) from [flaticon.com](https://www.flaticon.com/)</sub>
