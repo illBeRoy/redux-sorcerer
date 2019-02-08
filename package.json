@@ -1,0 +1,72 @@
+{
+  "name": "redux-sorcerer",
+  "description": "magically bind your react to your redux",
+  "version": "1.1.0",
+  "author": "Roy Sommer",
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "redux",
+    "observer",
+    "observable",
+    "connect"
+  ],
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "start": "node .",
+    "build:typescript": "tsc",
+    "build": "npm run build:typescript",
+    "watch:typescript": "tsc -w",
+    "watch": "npm run watch:typescript",
+    "lint": "tslint --project tsconfig.json",
+    "posttest": "npm run lint",
+    "prepublish": "npm run build",
+    "publish:minor": ""
+  },
+  "peerDependencies": {
+    "react": "*",
+    "redux": "*"
+  },
+  "devDependencies": {
+    "@types/chance": "^1.0.1",
+    "@types/enzyme": "^3.1.16",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^10.12.21",
+    "@types/react": "^16.8.2",
+    "@types/redux": "^3.6.0",
+    "chance": "^1.0.18",
+    "deep-equal": "^1.0.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "jest": "^24.1.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "redux": "^4.0.1",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.3.3"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)$": "ts-jest"
+    },
+    "roots": [
+      "src",
+      "test"
+    ],
+    "testEnvironment": "jsdom",
+    "testRegex": "^.+\\.spec\\.(ts|tsx|js)?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}
